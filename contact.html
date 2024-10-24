@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>RiifCreative</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome -->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" style="color: #0cafff;" href="index.html">RiifCreative</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Tentang</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Portofolio</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="container-fluid" style="background-color: #0cafff;">
+            <br><br><br><br>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img class="gambar-diri" src="assets/img/diri.png" alt="">
+                  </div>
+                  <div class="col">
+                    <div class="container text-center" style="margin-top: -20px;">
+                        <div class="row justify-content-center">
+                          <div class="col">
+                            <div class="typewriter-container">
+                              <span id="typed-text2"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <br><br>
+        </header>
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Kolom Kiri: List Kontak -->
+                <div class="col">
+                    <h4>Kontak</h4>
+                    <div class="form-floating mb-3">
+                        <ul class="list-group">
+                            <li class="list-kontak">
+                                <i class="fab fa-whatsapp text-success me-2"></i>
+                                WA <a href="https://wa.me/6282265171821" target="_blank">082265171821</a>
+                            </li>
+                            <li class="list-kontak">
+                                <i class="fab fa-instagram text-danger me-2"></i>
+                                Instagram <a href="https://www.instagram.com/syarif_r.m.d" target="_blank">@syarif_r.m.d</a>
+                            </li>
+                            <li class="list-kontak">
+                                <i class="fab fa-tiktok text-dark me-2"></i>
+                                TikTok <a href="https://www.tiktok.com/@sayreef" target="_blank">@sayreef</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+    
+                <!-- Kolom Kanan: Form Kontak -->
+                <div class="col">
+                    <h4>Pesan</h4>
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                            <label for="name">Nama</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Masukan nama anda</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
+                            <label for="email">Email anda</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Masukan email anda</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email tidak valid</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="Enter your phone number..." data-sb-validations="required" />
+                            <label for="phone">No HP</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Masukan NO HP anda</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 12rem" data-sb-validations="required"></textarea>
+                            <label for="message">Pesan</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Masukan pesan anda</div>
+                        </div>
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Berhasil</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Gagal mengirim</div>
+                        </div>
+                    </form>
+                    <button class="btn btn text-uppercase" style="background-color: #0cafff; color: white; border-radius: 5px;" id="submitButton" type="submit">Kirim</button>
+                </div>
+            </div>
+            <br>
+        </div>
+       <!-- Footer-->
+       <footer class="py-5" style="background-color: #0cafff;">
+        <div class="container">
+            <p class="m-0 text-center text-white">&copy; 2024 Riif Creative. All Rights Reserved.</p>
+        </div>
+    </footer>
+        <script>
+            var options = {
+                strings: ["Minat dengan projek saya?", "Pengen Desain atau butuh WEB?", "Ayo Hubungi saya dibawah!"],
+                typeSpeed: 60,        // Kecepatan mengetik (ms)
+                backSpeed: 40,        // Kecepatan menghapus (ms)
+                backDelay: 2000,      // Waktu jeda sebelum menghapus (ms)
+                startDelay: 1000,     // Waktu jeda awal (ms)
+                loop: true            // Looping animasi
+            };
+            var typed = new Typed("#typed-text2", options);
+        </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            AOS.init();
+          </script>
+         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!-- Typed.js Library -->
+     
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
